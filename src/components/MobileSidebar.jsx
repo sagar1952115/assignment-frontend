@@ -1,4 +1,4 @@
-import React from "react";
+// This is the sidebar component only for mobile
 
 const MobileSidebar = ({ activeTab, setActiveTab }) => {
   return (

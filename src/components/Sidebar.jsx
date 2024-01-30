@@ -1,4 +1,5 @@
-import React from "react";
+// This is the sidebar for Desktop or larget screen
+
 import { Link } from "react-router-dom";
 
 const Sidebar = ({ activeTab, setActiveTab }) => {

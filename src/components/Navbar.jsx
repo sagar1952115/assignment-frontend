@@ -126,6 +126,9 @@ const Navbar = () => {
             onClick={() => setShowNavigation(!showNavigation)}
             size="2rem"
           />
+
+          {/* On mobile when hamburger is clicked then only show navigation menu */}
+
           {showNavigation && (
             <div className="absolute right-0 p-2 list-none rounded bg-grey">
               <li

@@ -10,6 +10,9 @@ import { UserContext } from "../App";
 const AuthForm = () => {
   const { setAccessToken } = useContext(UserContext);
   const navigate = useNavigate();
+
+  // This function handles the google signin
+
   const handleGoogleSignin = () => {
     signInWithPopup(auth, provider).then((data) => {
       localStorage.setItem("user", data.user.accessToken);
